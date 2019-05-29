@@ -1,6 +1,6 @@
 <?php
 
-namespace Anaseqal\NovaImport\Actions;
+namespace Cyberduck\NovaImport\Actions;
 
 use Laravel\Nova\Resource;
 use Laravel\Nova\Fields\ID;

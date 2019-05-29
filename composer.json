@@ -1,6 +1,6 @@
 {
-    "name": "anaseqal/nova-import",
-    "description": "A Laravel Nova tool.",
+    "name": "cyber-duck/nova-import",
+    "description": "Laravel Nova Excel Import button.",
     "keywords": [
         "laravel",
         "nova"
@@ -12,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Anaseqal\\NovaImport\\": "src/"
+            "Cyberduck\\NovaImport\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Anaseqal\\NovaImport\\ToolServiceProvider"
+                "Cyberduck\\NovaImport\\ToolServiceProvider"
             ]
         }
     },

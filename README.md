@@ -9,13 +9,13 @@ Import data to resources.
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require anaseqal/nova-import
+composer require cyber-duck/nova-import
 ```
 
 Register the tool in `NovaServiceProvider`:
 
 ```php
-use Anaseqal\NovaImport\NovaImport;
+use Cyberduck\NovaImport\NovaImport;
 ...
 
 public function tools()
@@ -42,7 +42,7 @@ To use this tool, you need to create two things:
 namespace App\Nova\Actions;
 
 use Illuminate\Bus\Queueable;
-use Anaseqal\NovaImport\Actions\Action;
+use Cyberduck\NovaImport\Actions\Action;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Fields\ActionFields;
 use Illuminate\Queue\SerializesModels;
@@ -112,7 +112,7 @@ public function actions(Request $request)
 
 Action Name must use the Format of `Import{ResoueceName}`, for example `ImportUsers` or `ImportCountries`.
 
-Please note that it extends `Anaseqal\NovaImport\Actions\Action` not normal Nova Actions because it doesn't applies on models!
+Please note that it extends `Cyberduck\NovaImport\Actions\Action` not normal Nova Actions because it doesn't applies on models!
 
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Anaseqal\NovaImport\Actions;
+namespace Cyberduck\NovaImport\Actions;
 
 use Laravel\Nova\Http\Requests\ActionRequest;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;

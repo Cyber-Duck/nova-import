@@ -1,6 +1,6 @@
 <?php
 
-namespace Anaseqal\NovaImport\Actions;
+namespace Cyberduck\NovaImport\Actions;
 
 use DateTime;
 use Laravel\Nova\Nova;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Anaseqal\NovaImport\Actions;
+namespace Cyberduck\NovaImport\Actions;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Queue;

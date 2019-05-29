@@ -1,6 +1,6 @@
 <?php
 
-namespace Anaseqal\NovaImport;
+namespace Cyberduck\NovaImport;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
@@ -18,5 +18,5 @@ class NovaImport extends Tool
         Nova::style('nova-import', __DIR__.'/../dist/css/tool.css');
     }
 
-    
+
 }

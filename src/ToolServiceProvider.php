@@ -1,6 +1,6 @@
 <?php
 
-namespace Anaseqal\NovaImport;
+namespace Cyberduck\NovaImport;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
@@ -26,7 +26,7 @@ class ToolServiceProvider extends ServiceProvider
         });
     }
 
-    
+
 
     /**
      * Register any application services.
